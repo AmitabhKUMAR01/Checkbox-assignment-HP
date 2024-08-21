@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkbox assignments</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/index.js"></script>
+</head>
+<body>
+    <div class="header">Permission Manager</div>
+    <form id="accessControlForm">
+        <select id="selectModule">
+            <option value="moduleSub">Module Sub</option>
+        </select>
+        <div class="checkbox-wrapper">
+            <div class="module-section">
+                <label class="section-heading"><input type="checkbox" class="module-checkbox"> Property Management</label>
+                <div class="sub-options">
+                    <label><input type="checkbox" class="option-checkbox"> Edit Property</label><br>
+                    <label><input type="checkbox" class="option-checkbox"> Delete Property</label><br>
+                    <label><input type="checkbox" class="option-checkbox"> Add New Property</label><br>
+                </div>
+            </div>
+            <div class="module-section">
+                <label class="section-heading"><input type="checkbox" class="module-checkbox"> Testimonial Management</label>
+                <div class="sub-options">
+                    <label><input type="checkbox" class="option-checkbox"> Add Testimonial</label><br>
+                    <label><input type="checkbox" class="option-checkbox"> Remove Testimonial</label><br>
+                    <label><input type="checkbox" class="option-checkbox"> View Testimonials</label><br>
+                    <label><input type="checkbox" class="option-checkbox"> Edit Testimonials</label><br>
+                </div>
+            </div>
+            <div class="module-section">
+                <label class="section-heading"><input type="checkbox" class="module-checkbox"> User Management</label>
+                <div class="sub-options">
+                    <label><input type="checkbox" class="option-checkbox"> Edit Users</label><br>
+                    <label><input type="checkbox" class="option-checkbox"> View User List</label><br>
+                    <label><input type="checkbox" class="option-checkbox"> Add Users</label><br>
+                </div>
+            </div>
+            <div class="module-section">
+                <label class="section-heading"><input type="checkbox" class="module-checkbox"> Membership Management</label>
+                <div class="sub-options">
+                    <label><input type="checkbox" class="option-checkbox"> Edit Memberships</label><br>
+                    <label><input type="checkbox" class="option-checkbox"> Remove Memberships</label><br>
+                    <label><input type="checkbox" class="option-checkbox"> Add Memberships</label><br>
+                </div>
+            </div>
+        </div>
+        <button type="submit">Save Changes</button>
+    </form>
+</body>
+</html>
